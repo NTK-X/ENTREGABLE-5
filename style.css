@@ -155,7 +155,8 @@ main {
 .recom-product {
 	display: flex;
 	/* flex-wrap: wrap; */
-	width: minmax(300px, 30%);
+	/* width: minmax(300px, 30%); */
+	min-width: 300px;
 	justify-content: space-around;
 	align-items: center;
 	gap: 10px;
