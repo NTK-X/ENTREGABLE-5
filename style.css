@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
-	background: black;
+	background: #131415;
 }
 
 * {
@@ -11,7 +11,10 @@ body {
 	list-style-type: none;
 	font-family: "Monserrat", sans-serif;
 	text-decoration: none;
+	/* font-size: 32px; */
 }
+
+/* *SECCION HEADER */
 
 header {
 	width: 100%;
@@ -33,6 +36,8 @@ header {
 	width: 20%;
 }
 
+/* *SECCION MAIN */
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -42,6 +47,8 @@ main {
 	width: 100%;
 	z-index: -1;
 }
+
+/* *SECCION HERO */
 
 #hero {
 	display: flex;
@@ -75,7 +82,7 @@ main {
 	line-height: 2.67em;
 }
 
-.hero-info span {
+.hero-info h2 {
 	font-size: 2.43em;
 	line-height: 1.31em;
 }
@@ -95,9 +102,11 @@ main {
 	-webkit-background-clip: text; */
 }
 
+/* *IMAGENES SOLAPADAS */
+
 .pizza1 {
 	position: absolute;
-	right: 70px;
+	right: 9em;
 	top: 55px;
 	/* z-index: 10; */
 
@@ -107,10 +116,12 @@ main {
 
 .pizza2 {
 	position: absolute;
-	right: 325px;
+	right: 25em;
 	top: 170px;
 	/* z-index: -10; */
 }
+
+/* *SECCION RECOMENDACIONES */
 
 #recom {
 	display: flex;
@@ -129,12 +140,12 @@ main {
 	width: 100%;
 	font-size: 1.375em;
 	font-weight: 500;
-	line-height: 1.310em;
+	line-height: 1.31em;
 }
 
 .recom-cards {
 	display: flex;
-	/* flex-wrap: wrap; */
+	flex-wrap: wrap;
 	width: 87%;
 	justify-content: space-around;
 	gap: 30px;
@@ -144,7 +155,7 @@ main {
 .recom-product {
 	display: flex;
 	/* flex-wrap: wrap; */
-	width: 33%;
+	width: minmax(300px, 30%);
 	justify-content: space-around;
 	align-items: center;
 	gap: 10px;
@@ -176,7 +187,6 @@ main {
 }
 
 .product-info span {
-	
 	/* background: linear-gradient( to right, #ffa100, #ff005c) ; */
 	background: linear-gradient(to right, #ffa100, #fb103d);
 	color: transparent;
@@ -186,18 +196,77 @@ main {
 	font-weight: 700;
 	line-height: 1.31em;
 	/* width: 50%; */
-	
 }
 .recom-product a {
 	color: #fefeff;
 	background: linear-gradient(to right, #ffa100, #fb103d);
 	font-weight: 700;
 	width: 85px;
-	padding: 5px ;
+	padding: 5px;
 	border-radius: 15px;
 	font-size: 0.75em;
 	line-height: 0.914em;
 	letter-spacing: 0.5px;
 	text-align: center;
 	/* width: 30%; */
+}
+
+/* *SECCION CATEGORIAS */
+#categories {
+	display: flex;
+	flex-direction: column;
+	padding: 50px 110px;
+	max-width: 1400px;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	gap: 15px;
+	/* border: 1px solid red; */
+}
+
+#categories h2 {
+	justify-content: left;
+	width: 100%;
+	font-size: 0.9375em;
+	font-weight: 800;
+	line-height: 1.2281em;
+}
+
+.cat-cards {
+	display: flex;
+	width: 100%;
+	gap: 10px;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	/* flex-direction: row; */
+}
+.cat-product {
+	display: flex;
+	/* width: 13%; */
+	min-width: 120px;
+	padding: 20px;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	text-align: center;
+	gap: 10px;
+	background: #252525;
+	border-radius: 15px;
+	box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+	padding: 10px;
+}
+
+.cat-product p {
+	font-size: 0.9375em;
+	line-height: 1.2281em;
+	font-weight: 400;
+}
+
+.rectangulo {
+	background: linear-gradient(to right, #ffa100, #fb103d);
+	width: 24px;
+	height: 4px;
+	margin: auto;
+	border-radius: 50px;
 }
