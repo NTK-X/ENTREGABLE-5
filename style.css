@@ -140,7 +140,7 @@ main {
 	width: 100%;
 	font-size: 1.375em;
 	font-weight: 500;
-	line-height: 1.310em;
+	line-height: 1.31em;
 }
 
 .recom-cards {
@@ -163,7 +163,6 @@ main {
 	border-radius: 15px;
 	box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
 	padding: 10px;
-
 }
 
 .product-info {
@@ -188,7 +187,6 @@ main {
 }
 
 .product-info span {
-	
 	/* background: linear-gradient( to right, #ffa100, #ff005c) ; */
 	background: linear-gradient(to right, #ffa100, #fb103d);
 	color: transparent;
@@ -198,14 +196,13 @@ main {
 	font-weight: 700;
 	line-height: 1.31em;
 	/* width: 50%; */
-	
 }
 .recom-product a {
 	color: #fefeff;
 	background: linear-gradient(to right, #ffa100, #fb103d);
 	font-weight: 700;
 	width: 85px;
-	padding: 5px ;
+	padding: 5px;
 	border-radius: 15px;
 	font-size: 0.75em;
 	line-height: 0.914em;
@@ -258,9 +255,7 @@ main {
 	border-radius: 15px;
 	box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
 	padding: 10px;
-	
 }
-
 
 .cat-product p {
 	font-size: 0.9375em;
@@ -268,6 +263,10 @@ main {
 	font-weight: 400;
 }
 
-.cat-product span {
+.rectangulo {
 	background: linear-gradient(to right, #ffa100, #fb103d);
+	width: 24px;
+	height: 4px;
+	margin: auto;
+	border-radius: 50px;
 }
