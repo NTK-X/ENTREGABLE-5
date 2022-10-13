@@ -2,6 +2,7 @@
 
 body {
 	background: #131415;
+	min-width: 400pxgit;
 }
 
 * {
@@ -26,7 +27,9 @@ header {
 	top: 0;
 	height: 100px;
 	z-index: 10;
+	background: #131415;
 	/* background: #fb103d; */
+	/* max-width: 1400px; */
 }
 
 .nav-menu {
@@ -46,6 +49,8 @@ main {
 	color: #ffffff;
 	width: 100%;
 	z-index: -1;
+	min-width: 400px;
+	
 }
 
 /* *SECCION HERO */
@@ -270,4 +275,32 @@ main {
 	height: 4px;
 	margin: auto;
 	border-radius: 50px;
+}
+footer {
+	background: #141516;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	padding: 50px 0;
+
+}
+
+footer a, footer p {
+	color: #ffffff;
+	font-size: 1.0625em;
+	font-weight: 400;
+	line-height: 1.31em;
+}
+
+footer span {
+	font-weight: 900;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
 }
