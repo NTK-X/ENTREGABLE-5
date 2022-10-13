@@ -26,6 +26,7 @@ header {
 	top: 0;
 	height: 100px;
 	z-index: 10;
+	background: #131415;
 	/* background: #fb103d; */
 }
 
@@ -46,6 +47,7 @@ main {
 	color: #ffffff;
 	width: 100%;
 	z-index: -1;
+	
 }
 
 /* *SECCION HERO */
