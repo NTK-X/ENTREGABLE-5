@@ -2,6 +2,7 @@
 
 body {
 	background: #131415;
+	min-width: 400pxgit;
 }
 
 * {
@@ -28,6 +29,7 @@ header {
 	z-index: 10;
 	background: #131415;
 	/* background: #fb103d; */
+	max-width: 1400px;
 }
 
 .nav-menu {
@@ -47,6 +49,7 @@ main {
 	color: #ffffff;
 	width: 100%;
 	z-index: -1;
+	min-width: 400px;
 	
 }
 
