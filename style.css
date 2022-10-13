@@ -29,7 +29,7 @@ header {
 	z-index: 10;
 	background: #131415;
 	/* background: #fb103d; */
-	max-width: 1400px;
+	/* max-width: 1400px; */
 }
 
 .nav-menu {
@@ -275,4 +275,32 @@ main {
 	height: 4px;
 	margin: auto;
 	border-radius: 50px;
+}
+footer {
+	background: #141516;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	padding: 50px 0;
+
+}
+
+footer a, footer p {
+	color: #ffffff;
+	font-size: 1.0625em;
+	font-weight: 400;
+	line-height: 1.31em;
+}
+
+footer span {
+	font-weight: 900;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
 }
