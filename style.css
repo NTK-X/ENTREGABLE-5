@@ -2,7 +2,7 @@
 
 body {
 	background: #131415;
-	min-width: 400pxgit;
+	min-width: 400px;
 }
 
 * {
@@ -29,7 +29,8 @@ header {
 	z-index: 10;
 	background: #131415;
 	/* background: #fb103d; */
-	/* max-width: 1400px; */
+	max-width: 1400px;
+	min-width: 400px;
 }
 
 .nav-menu {
@@ -37,6 +38,7 @@ header {
 	justify-content: space-around;
 	align-items: center;
 	width: 20%;
+	gap: 20px;
 }
 
 /* *SECCION MAIN */
@@ -50,6 +52,7 @@ main {
 	width: 100%;
 	z-index: -1;
 	min-width: 400px;
+	max-width: 1400px;
 	
 }
 
@@ -61,6 +64,7 @@ main {
 	margin-top: 100px;
 	padding: 50px 110px;
 	max-width: 1400px;
+	min-width: 400px;
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
@@ -133,6 +137,7 @@ main {
 	flex-direction: column;
 	padding: 50px 110px;
 	max-width: 1400px;
+	min-width: 400px;
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
@@ -223,6 +228,7 @@ main {
 	flex-direction: column;
 	padding: 50px 110px;
 	max-width: 1400px;
+	min-width: 400px;
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
@@ -276,6 +282,11 @@ main {
 	margin: auto;
 	border-radius: 50px;
 }
+
+
+/* *SECCION FOOTER */
+
+
 footer {
 	background: #141516;
 	color: #ffffff;
@@ -283,8 +294,10 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	gap: 40px;
+	gap: 60px;
 	padding: 50px 0;
+	max-width: 1400px;
+	min-width: 400px;
 
 }
 
