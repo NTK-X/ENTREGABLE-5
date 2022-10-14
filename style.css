@@ -283,6 +283,85 @@ main {
 	border-radius: 50px;
 }
 
+/* *SECCION LOS MAS POPULARES */
+
+.cajaprincipio {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	max-width: 1200px;
+	width: 100%;
+
+}
+#populares h3{ 
+	font-size: 0.9375em;
+}
+
+#populares h2 {
+	justify-content: left;
+	width: 100%;
+	font-size: 1.375em;
+	font-weight: 500;
+	line-height: 1.31em;
+}
+.cajaprincipal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	text-align: start;
+	padding: 5%;
+	margin: 1em;
+	gap: 4px;
+	background: #252525;
+	border-radius: 15px;
+	box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
+	max-width: 85%;
+	
+}
+.cajaprincipal p {
+	font-size: 0.875em;
+	font-weight: 400;
+	line-height: 1.0625em;
+	letter-spacing: 0.5px;
+	opacity: 0.3;
+}
+
+.elementosdos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-items: center;
+	align-content: center;
+	gap: 3em;
+}
+
+.elementosdos a{
+	color: #fefeff;
+	background: linear-gradient(to right, #ffa100, #fb103d);
+    width: 40%;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 0.875em;
+}
+
+.elementosdos span {
+	background: linear-gradient(to right, #ffa100, #fb103d);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	font-size: 1.1300em;
+	font-weight: 700;
+	line-height: 1.10em;	
+	
+}
+
+
+
 
 /* *SECCION FOOTER */
 
