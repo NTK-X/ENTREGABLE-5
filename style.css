@@ -3,6 +3,10 @@
 body {
 	background: #131415;
 	min-width: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 * {
