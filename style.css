@@ -17,6 +17,7 @@ body {
 	font-family: "Monserrat", sans-serif;
 	text-decoration: none;
 	/* font-size: 32px; */
+	border: 2px solid limegreen;
 }
 
 /* *SECCION HEADER */
@@ -115,22 +116,32 @@ main {
 	-webkit-background-clip: text; */
 }
 
+.hero-img {
+
+	position: relative;
+	top: -150px;
+	right: 500px;
+}
+
 /* *IMAGENES SOLAPADAS */
 
 .pizza1 {
 	position: absolute;
-	right: 9em;
-	top: 55px;
+	/* right: 9em; */
+	/* top: 55px; */
 	/* z-index: 10; */
+	left: 7.9em;
+	top: -110px;
 
 	/* right: 50px; */
 	/* right: 0.026em; */
+
 }
 
 .pizza2 {
 	position: absolute;
-	right: 25em;
-	top: 170px;
+	/* right: 25em; */
+	/* top: 170px; */
 	/* z-index: -10; */
 }
 
