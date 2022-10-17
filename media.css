@@ -1,0 +1,32 @@
+@media (max-width:945px) {
+
+.hero-img, .pizza1, .pizza2 {
+    display: none;
+}
+
+#hero {
+    justify-content: center;
+}
+
+.hero-info {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#recom h2, #categories h2, #populares h2 {
+    text-align: center;
+}
+
+}
+
+@media (max-width:476px) {
+
+.footer-links {
+    flex-direction: column;
+    text-align: center;
+}
+
+
+}
