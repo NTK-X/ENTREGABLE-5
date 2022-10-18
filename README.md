@@ -2,11 +2,11 @@
 
 Participantes:
 
-Angel Hernandez
-Leandro Ortega
-Lucas Antonio
-Yanina Ghella
-Martina Giampani
+Angel Hernandez,
+Leandro Ortega,
+Lucas Antonio,
+Yanina Ghella,
+Martina Giampani.
 
 
 Sobre este trabajo:
