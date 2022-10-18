@@ -2,7 +2,7 @@
 
 Participantes:
 
-Angel Hernandez,
+Angel Hernández,
 Leandro Ortega,
 Lucas Antonio,
 Yanina Ghella,
