@@ -1,0 +1,36 @@
+.btn-transition {
+	transition: all 0.5s ease-in-out;
+}
+.btn-transition:hover {
+	transform: scale(1.2, 1.1);
+	transition: all 1s ease-in-out;
+}
+.img-transition {
+	transition: all 1s ease-in-out;
+}
+.img-transition:hover {
+	transform: rotate(360deg);
+	transition: all 2s ease-in-out;
+}
+
+.card-transition {
+	transition: all 0.5s ease-in-out;
+}
+.card-transition:hover {
+	background: radial-gradient(#000000, #642c03);
+	color: antiquewhite;
+	transform: scale(1.2, 1.1);
+	transition: all 1s ease-in-out;
+}
+
+.h-transition {
+	transition: all 0.8s ease-in-out;
+}
+
+.h-transition:hover {
+	background: linear-gradient(to right, #fb103d ,  #ffa100);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	transition: all 1s ease-in-out;
+}

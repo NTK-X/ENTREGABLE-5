@@ -17,7 +17,11 @@ body {
 	font-family: "Monserrat", sans-serif;
 	text-decoration: none;
 	/* font-size: 32px; */
-	border: 2px solid limegreen;
+	/* border: 2px solid limegreen; */
+}
+
+a {
+	cursor: pointer;
 }
 
 /* *SECCION HEADER */
@@ -38,12 +42,21 @@ header {
 	min-width: 400px;
 }
 
+.logo {
+	cursor: pointer;
+}
+
+
 .nav-menu {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	width: 20%;
 	gap: 20px;
+}
+
+.nav-menu {
+	cursor: pointer;
 }
 
 /* *SECCION MAIN */
@@ -55,7 +68,7 @@ main {
 	justify-content: center;
 	color: #ffffff;
 	width: 100%;
-	z-index: -1;
+	/* z-index: -1; */
 	min-width: 400px;
 	max-width: 1400px;
 	
@@ -80,7 +93,7 @@ main {
 	flex-direction: column;
 	gap: 10px;
 	width: 50%;
-	/* min-width: 520px; */
+	min-width: 265px;
 }
 
 .hero-info h1 {
@@ -413,6 +426,7 @@ footer {
 	padding: 50px 0;
 	max-width: 1400px;
 	min-width: 400px;
+	width: 100%;
 
 }
 
